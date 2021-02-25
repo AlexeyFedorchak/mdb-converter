@@ -1,0 +1,467 @@
+pkAddress,addressStreet,addressTown,addressStreet2,addressHouseNumber,addressPoBox,addressZip,addressCountry,addressGeoDataLongitude,addressGeoDataLatitude,fkRegion,fkCountry
+1,"Vogelsangstraße","Dettingen",,"30",,"72581","Deutschland","9.339507","48.527938",,2
+2,"Grossbruggerweg","Chur",,"3",,"7000","Schweiz","9.50786","46.85757",,4
+3,"Schaffhauserstrasse","Winterthur",,"84",,"8400","Schweiz","8.72138","47.51461",4,4
+5,"Obere Bodenbergstrasse","Weggis",,"15",,"6353","Schweiz","8.451634","47.031656",,4
+7,"Rosenbergstrasse","Wädenswil",,"9",,"8820","Schweiz","8.66904","47.22921",,4
+8,"Grubenstrasse","Zürich",,"39",,"8045","Schweiz","8.51307","47.36128",1,4
+11,"Zollernstrasse","Konstanz",,"29",,"78462","Deutschland","9.17550","47.66215",,2
+12,"Hauptstrasse","Unterseen",,"5",,"3800","Schweiz","7.84948","46.68592",,4
+14,"Kirchheimer Straße","Holzmaden",,"43",,"73271","Deutschland","9.51192","48.63523",,2
+17,"Rudolf Diesel-Strasse","Winterthur",,"5",,"8405","Schweiz","8.754537","47.495356",4,4
+21,"Bongertstrasse","Grabs",,"5",,"9472","Schweiz","9.44405","47.17347",,4
+23,"Pariser Straße","Berlin",,"51",,"10719","Deutschland","13.32511","52.49650",,2
+25,"Moosweg","Gwatt (Thun)",,"22",,"3645","Schweiz","7.61669","46.72468",,4
+26,"Stöcken","Solingen",,"24",,"42651","Deutschland","7.10004","51.18586",,2
+27,"Merkelstraße","Esslingen a. N.",,"8",,"73728","Deutschland","9.30990","48.73610",,2
+28,"Tannenstrasse","Wertheim",,"11",,"97877","Deutschland","9.50133","49.71164",,2
+30,"Monbielerstrasse","Klosters",,"212",,"7250","Schweiz","9.921601","46.860948",,4
+31,"Aubrigstrasse","Jona",,"14",,"8645","Schweiz","8.83844","47.23100",,4
+33,"Eichendorffstraße","Asslar",,"25",,"35614","Deutschland","8.47537","50.58509",,2
+38,"Römerstrasse","Winterthur",,"44a",,"8400","Schweiz","8.74253","47.50086",4,4
+39,"Grasweg","Kiel",,"39",,"24118","Deutschland","10.11738","54.33809",,2
+42,"Hermannstrasse","Weinfelden",,"8",,"8570","Schweiz","9.10536","47.56824",,4
+44,"Chopinstraße","Stuttgart",,"14",,"70195","Deutschland","9.11814","48.78022",5,2
+47,"Schwalbenstrasse","Wetzikon",,"95",,"8623","Schweiz","8.81810","47.32795",,4
+77,"Ascherstrasse","Schrobenhausen",,"18",,"86529","Deutschland","11.27810","48.54961",,2
+80,"Dammstrasse ","Fislisbach",,"9",,"5442","Schweiz","8.28482","47.43912",,4
+81,"Imhofstrasse","München",,"18",,"80805","Deutschland","11.59874","48.16797",9,2
+85,"Gustav-Rau-Straße","Bietigheim-Bissingen",,"8/1",,"74321","Deutschland","9.14853","48.94882",,2
+88,"Kölner Straße","Stuttgart",,"36",,"70376","Deutschland","9.20319","48.82035",5,2
+92,"Regensbergstrasse","Zürich",,"59",,"8050","Schweiz","8.55165","47.40511",1,4
+93,"Schützenweg","Bern",,"22",,"3014","Schweiz","7.450545","46.959289",,4
+96,"Segantinistrasse","Chur",,"2",,"7000","Schweiz","9.52268","46.85379",,4
+97,"St.-Jakob-Strasse","St. Gallen",,"56a",,"9000","Schweiz","9.38121","47.43080",6,4
+719,"Herrenmattestrasse","Wimmis",,"2",,"3752","Schweiz","7.6338914","46.6763231",,
+98,"Walgaustrasse","Ludesch",,"90",,"6713","Österreich","9.77773","47.18620",,3
+100,"Dorfstrasse","Richterswil",,"46",,"8805","Schweiz","8.705027","47.2076573",,4
+101,"Robänkli","Aathal-Seegräben",,"14",,"8607","Schweiz","8.76380","47.33076",,4
+106,"Blümlisalpstrasse","Heimberg",,"22",,"3627","Schweiz","7.607328","46.782463",,4
+108,"Hindenburgstraße","Oelde",,"4",,"59302","Deutschland","8.138535","51.822505",,2
+109,"Beginenstraße","Bensheim",,"20",,"64625","Deutschland","8.61185","49.68784",,2
+110,"Neuwiesenstrasse","Uster",,"9a",,"8610","Schweiz","8.72179","47.34987",,4
+111,"Wesemlinstrasse","Luzern",,"55",,"6006","Schweiz","8.31526","47.06302",10,4
+113,"Feldkircherstrasse","Frastanz",,"45",,"6820","Österreich","9.63115","47.21715",,3
+114,"Maybachstraße","Gerlingen",,"7",,"70839","Deutschland","9.07039","48.80405",,2
+115,"Friedhofstrasse","Weingarten",,"13",,"88250","Deutschland","9.64073","47.80518",,2
+117,"Oberfeldstrasse","Gränichen",,"18",,"5722","Schweiz","8.10992","47.34832",,4
+118,"Oberrohrdorferstrasse","Baden-Dättwil",,"1C",,"5405","Schweiz","8.29375","47.44412",,4
+119,"Mühlemattstrasse","Aarau",,"91",,"5000","Schweiz","8.05085","47.39563",,4
+124,"Marktstraße","Winterlingen",,"10",,"72474","Deutschland","9.117400","48.178353",,2
+127,"Talstrasse","Altendorf",,"26a",,"8852","Schweiz","8.81396","47.19353",,4
+128,"Aechterhoek","Emsdetten",,"15",,"48282","Deutschland","7.50791","52.19021",,2
+130,"Pillnitzer Landstr.","Dresden",,"239",,"01326","Deutschland","13.847019","51.028739",,2
+137,"Horngasse","Oberrieden",,"6",,"8942","Schweiz","8.5804907","47.2787112",,4
+139,"Alois-Senefelder-Straße","Neumarkt",,"18",,"92318","Deutschland","11.442500","49.259737",,2
+140,"Dornacherstrasse","Basel",,"161",,"4053","Schweiz","7.5923526","47.5423645",,4
+141,"Rothusstrasse","Hünenberg",,"5b",,"6331","Schweiz","8.44183","47.16122",,4
+145,"Neptunstrasse","Zürich",,"41",,"8032","Schweiz","8.55648","47.36685",1,4
+146,"Kurt-Fischer-Str.","Ahrensburg",,"23e",,"22926","Deutschland","10.258725","53.686333",,2
+149,"Hofackerstrasse","Zürich",,"33",,"8032","Schweiz","8.56426","47.36151",1,4
+150,"Kronenstrasse","Malsch",,"7a",,"76316","Deutschland","8.335943","48.881667",,2
+151,"Solothurnstrasse","Biel",,"126 a",,"2504","Schweiz","7.2798841","47.1600747",,4
+152,"Uhlandstraße","Fellbach",,"17",,"70736","Deutschland","9.26589","48.83245",,2
+156,"Halde","Chur",,"2",,"7000","Schweiz","9.5355457","46.8516452",,4
+159,"Meielenfeldweg","Zollikofen",,"1","Postfach 531","3052","Schweiz","7.4641102","46.9947695",,4
+161,"Neptunstrasse","Zürich",,"88",,"8032","Schweiz","8.55827","47.36488",1,4
+164,"Kolosseumstrasse","St. Gallen",,"25a",,"9008","Schweiz","9.3918896","47.4378164",,4
+167,"Feigengasse","Oberkochen",,"3",,"73447","Deutschland","10.1047800","48.7841100",,2
+168,"Oberanger","München",,"32",,"80331","Deutschland","11.57032","48.13453",9,2
+170,"Neptunstrasse","St. Gallen",,"3+5",,"9000","Schweiz","9.3934674","47.4305922",6,4
+173,"Käppeleweg","Lauda-Königshofen",,"6",,"97922","Deutschland","9.724301","49.544229",,2
+174,"Wolftürlistrasse","Wallbach",,"1",,"4323","Schweiz","7.89802","47.55565",,4
+176,"Zollernstr.","Konstanz",,"29",,"78462","Deutschland","9.1755601","47.6621343",,2
+179,"In der Friede","Rheine",,"8",,"48432","Deutschland","7.4047400","52.2958600",,2
+180,"Mühlenstrasse","Schaffhausen",,"40","Postfach 230","8203","Schweiz","8.62791","47.69319",7,4
+186,"Schulstr.","Halstenbek",,"18",,"25469","Deutschland","9.8419777","53.6360576",,2
+187,"Ebikonerstrasse","Adligenswil",,"75",,"6043","Schweiz","8.349166","47.071381",,4
+188,"Stresemannstrasse","Hamburg",,"48",,"22769","Deutschland","9.9606288","53.5595508",,2
+189,"Wexstrstr.","Hamburg",,"26",,"20355","Deutschland","9.98076","53.55525",,2
+193,"Bismarckstrasse","Waldshut",,"35",,"79761","Deutschland","8.2158800","47.6227200",,2
+201,"Nutzung","Oberlungwitz",,"28",,"09353","Deutschland","12.7461500","50.7933300",,2
+202,"Neutalstrasse","Schaffhausen",,"66",,"8200","Schweiz","8.6711611","47.7222315",7,4
+206,"Paradiesstrasse","Schwäbisch Gmünd",,"3",,"73525","Deutschland","9.79756","48.79693",,2
+207,"Daimlerstrasse","Aalen",,"20",,"73431","Deutschland","10.0598470","48.8245091",,2
+208,"Ettmannsdorfer Straße","Schwandorf",,"53",,"92421","Deutschland","12.09808","49.32968",,2
+211,"Studacherstrasse","Kirchdorf",,"11",,"5416","Schweiz","8.275415","47.493232",,4
+219,"Aichacher Strasse","Inchenhofen",,"14",,"86570","Deutschland","11.1153811","48.5096501",,2
+220,"Wolfsteinstrasse","Neumarkt",,"8",,"92318","Deutschland","11.4902500","49.2832700",,2
+225,"Im Brühl","Lauffen",,"68/1",,"74348","Deutschland","9.13815","49.07401",,2
+228,"Löhrstrasse","Mörschwil",,"6",,"9402","Schweiz","9.42631","47.46496",,4
+229,"Ganghoferstrasse","Gaimersheim",,"12",,"85080","Deutschland","11.3745700","48.8102500",,2
+231,"Steingatt","Essen",,"12",,"45289","Deutschland","7.1015289","51.4109957",,2
+232,"Hausenstrasse","Meiringen",,"62",,"3860","Schweiz","8.17020","46.72863",,4
+236,"Baumgartenstrasse","Alpnach Dorf",,"9",,"6055","Schweiz","8.2696502","46.9373689",,4
+238,"Siedlerstrasse","Massenhausen",,"3a",,"85376","Deutschland","11.6369745","48.3467972",,2
+243,"Alte Strasse","Reinach",,"32",,"5734","Schweiz","8.17939","47.25698",,4
+244,"Hauptstrasse","Wolnzach",,"35","Geroldshausen","85283","Deutschland","11.6241262","48.5628918",,2
+246,"Güterstrasse","Gretzenbach",,"6",,"5014","Schweiz","7.98982","47.36125",,4
+256,"Schmalzgartenweg","Eislingen",,"10",,"73054","Deutschland","9.70796","48.70230",,2
+257,"Meilibachweg","Horgen",,"2b",,"8810","Schweiz","8.59871","47.26009",,4
+260,"Murggenstrasse","Nänikon",,"23",,"8606","Schweiz","8.68607","47.37126",,4
+263,"Am Kirschendeich","Linkenheim-Hochstetten",,"1a",,"76351","Deutschland","8.40176","49.12587",,2
+264,"Hans-Thoma-Strasse","Karlsbad",,"5",,"76307","Deutschland","8.50325","48.91110",,2
+266,"Pilatusstrasse","Muri",,"1",,"5630","Schweiz","8.3474835","47.266175",,4
+269,"Ganghoferstrasse","Deisenhofen bei München",,"5",,"82041","Deutschland","11.58541","48.01826",,2
+271,"Grundstrasse","Horrenberg",,"18",,"69234","Deutschland","8.777275","49.279757",,2
+272,"Ringstrasse","Parsberg",,"23",,"92331","Deutschland","11.72487","49.15667",,2
+273,"Oberherrlinger Strasse","Blaustein",,"75",,"89134","Deutschland","9.8924935","48.426321",,2
+274,"Christoph Kunz Olympiastrasse","Frutigen",,"10",,"3714","Schweiz","7.655561","46.589001",,4
+275,"Mühlegasse","Baar",,"18",,"6340","Schweiz","8.526603","47.199667",,4
+278,"Traubengasse","Weil am Rhein",,"24",,"79576","Deutschland","7.6304097","47.5912843",,2
+279,"Wiclefstrasse","Berlin",,"2",,"10551","Deutschland","13.3407","52.53025",,2
+280,"casa","Vicosoprano",,"93a",,"7603","Schweiz","9.6266802","46.3526587",,4
+285,"Beundenring","Nidau",,"3a",,"2560","Schweiz","7.237163","47.118527",,4
+286,"Landgrafenstrasse","Worms",,"13",,"67549","Deutschland","8.3254395","49.6343588",,2
+288,"Oberdorf","Muttenz",,"7",,"4132","Schweiz","7.646716","47.521612",,4
+292,"Tunvägen","Lund","
+1) 223 63 Lund, Schweden
+Genauigkeit / Typ: APPROXIMATE / postal_codeDetails Adressgegeocodierung
+Koordinaten:
+Dezimalgrad: 55.711664, 13.213882
+55.711664, 13.213882","10",,"22363","Sweden","13.206715237512185","55.70642909448003",,6
+294,"Kreuzgasse","Regensburg",,"1",,"93047","Deutschland","12.0891588","49.019472",,2
+298,"Brunnenweid","Sins",,"29",,"5643","Schweiz","8.385714","47.199902",,4
+301,"Hohlenbaumstrasse","Schaffhausen",,"190",,"8200","Schweiz","8.6259052","47.7083265",7,4
+303,"Mittelstrasse","Rechenberg-Bienenmühle",,"35",,"09623","Deutschland","13.535510","50.738880",,2
+304,"Rotbergerstrasse","Basel",,"17",,"4054","Schweiz","7.5775194","47.5487687",,4
+305,"Sempachstrasse","Luzern",,"21",,"6003","Schweiz","8.3090527","47.0470338",10,4
+307,"Kirchstrasse","Weiningen",,"7A",,"8104","Schweiz","8.4370055","47.4206264",,4
+308,"Sulzstrasse","Goldach",,"25",,"9403","Schweiz","9.4700755","47.4729427",,4
+309,"Huebstrasse","Wolfhausen",,"13",,"8633","Schweiz","8.7939097","47.2571216",,4
+310,"Schützenstrasse","Thalwil",,"7",,"8800","Schweiz","8.563646","47.284804",,4
+312,"Obere Gasse","Felsberg",,"14",,"7012","Schweiz","9.4699012","46.8458207",,4
+313,"Landhofstrasse","Reichenburg",,"5c",,"8864","Schweiz","8.982113","47.171629",,4
+315,"Im Höfli","Wollerau",,"13",,"8832","Schweiz","8.705074","47.201810",,4
+316,"Hafnerstrasse","Zürich",,"45",,"8005","Schweiz","8.536259","47.382037",1,4
+317,"Heppstraße","Reutlingen",,"90",,"72760","Deutschland","9.187990","48.500660",8,2
+318,"Wallgässchen","Dresden",,"5",,"01097","Deutschland","13.74101","51.061816",,2
+319,"Tübingerstraße","Leinfelden-Echterdingen",,"34",,"70771","Deutschland","9.162181","48.683818",,2
+322,"Fanny von Lehnertstraße","Salzburg",,"35",,"5020","Österreich","13.044891","47.817038",,3
+325,"Waldsängerpfad","Berlin",,"3 / links",,"14129","Deutschland","13.206700","52.436237",,2
+326,"Schönbrunner Strasse","Landshut",,"20",,"84036","Deutschland","12.165526","48.538196",,2
+327,"Hertistrasse","Brunnen",,"31",,"6440","Schweiz","8.6075732","47.0022148",,4
+328,"Sonnfeldstrasse","Trimbach",,"8",,"4632","Schweiz","7.906039","47.360095",,4
+331,"Doktor Karl Dorrstrasse","Brunn am Gebirge",,"6",,"2345","Österreich","16.294640","48.103948",,3
+334,"Moosstrasse","Berikon",,"7",,"8965","Schweiz","8.381749","47.3477641",,4
+335,"Körner Strasse","Gevelsberg",,"83",,"58285","Deutschland","7.336667","51.321710",,2
+337,"Hintere Hofmatt","Schönau",,"9",,"79677","Deutschland","7.895615","47.787558",,2
+338,"Seeweg","Allensbach",,"21",,"78476","Deutschland","9.0522639","47.7198792",,2
+342,"Salzwasserweg","Gstaad",,"15a",,"3780","Schweiz","7.2733203","46.4824964",,4
+343,"Dorfstrasse","Dietramszell",,"23",,"83623","Deutschland","11.53675","47.83588",,2
+345,"Rudolf-Diesel-Strasse","Winterthur",,"5",,"8404","Schweiz","8.754587","47.495377",,4
+347,"Friedhofweg","Ebersbach-Musbach",,"3",,"88371","Deutschland","9.5769487","47.9548855",,2
+348,"Brunnenweg","Forchheim",,"1",,"91301","Deutschland","11.0968196","49.7177644",,2
+349,"Neue Bruchstraße","Ettlingen",,"2a",,"76275","Deutschland","8.372820","48.924200",,2
+350,"Im Alten Dorf","Seevetal (Fleestedt)",,"2",,"21217","Deutschland","9.9940954","53.408747",,2
+351,"Westfalenstrasse","Troisdorf",,"51a",,"53844","Deutschland","7.1179742","50.811866",,2
+355,"Im Breukel","Essen",,"8",,"45359","Deutschland","6.9028521","51.4770997",,2
+356,"Gehrenstrasse","Horgen",,"15",,"8810","Schweiz","8.6040978","47.2538542",,4
+357,"Brünnmatten","Ipsach",,"20",,"2563","Schweiz","7.232268","47.116584",,4
+360,"Graf-Mirbach-Platz","Hillesheim",,"4 a",,"54576","Deutschland","6.67181","50.29062",,2
+361,"Heesenstraße","Düsseldorf",,"121",,"40549","Deutschland","6.712178","51.227667",,
+362,"Benzburweg","Liestal",,"18",,"4410","Schweiz","7.7419174","47.4754525",,
+364,"Nord","Walzenhausen",,"21",,"9428","Schweiz","9.596880","47.450357",,
+366,"Im Tal","Bretten",,"1",,"75015","Deutschland","8.6795399","49.0679458",,
+367,"Wiesenstrasse","Bern 22",,"70",,"3000","Schweiz","7.4587355","46.9611285",,
+368,"Schützenwiesweg","Uzwil",,"4",,"9240","Schweiz","9.137803","47.436040",,
+374,"Hauptstrasse","Emmingen-Liptingen",,"40",,"78576","Deutschland","8.851160","47.929590",,
+375,"Aachener Str.","Düsseldorf",,"26",,"40223","Deutschland","6.775809","51.206446",,
+377,"Oberneuhofstrasse","Baar",,"11",,"6340","Schweiz","8.516840","47.187444",,
+378,"Breitwies","Ehrendingen",,"22",,"5420","Schweiz","8.3410538","47.4910244",,
+379,"Frankenring","Krefeld",,"43",,"47798","Deutschland","6.552729","51.326866",,
+381,"Mühlestrasse","Obfelden",,"4e",,"8912","Schweiz","8.411361","47.263873",,
+384,"Berner Strasse","München",,"47",,"81476","Deutschland","11.492930","48.095440",,
+385,"Heiligenstädter Strasse","Wien",,"159",,"1190","Österreich","16.365449","48.255100",,
+387,"Alpsteinstrasse","Herisau",,"39",,"9100","Schweiz","9.280949","47.375213",,
+388,"Siemensstraße","Rödermark",,"16",,"63322","Deutschland","8.797465","49.980877",,
+389,"Stallikonerstrasse","Birmensdorf",,"52",,"8903","Schweiz","8.444794","47.355840",,
+391,"Brunnenweg","Irsch",,"4",,"54451","Deutschland","6.588694","49.602221",,
+394,"Emmentalstrasse","Oberburg",,"9",,"3414","Schweiz","7.625669","47.039987",,
+395,"Ebnaterstrasse","Ebnat-Kappel",,"37",,"9642","Schweiz","9.125513","47.260895",,
+396,"Oberneuhofstrasse","Baar",,"7",,"6340","Schweiz","8.517087","47.188981",,
+397,"Meinbergstraße","Dortmund",,"69",,"44269","Deutschland","7.524940","51.489840",,
+398,"via Mulinas","Schluein",,"50",,"7151","Schweiz","9.228183","46.787992",,
+399,"Kaubendenstrasse","Aachen",,"9",,"52078","Deutschland","6.154267","50.767522",,
+400,"Lückerather Weg","Bergisch Gladbach",,"49",,"51429","Deutschland","7.142585","50.970822",,
+402,"Im Schoren","Gwatt",,"4",,"3645","Schweiz","7.619209","46.725608",,
+405,"Edelbeurerstrasse","Gutenzell",,"22",,"88484","Deutschland","9.999133","48.111178",,
+406,"Isikerstrasse","Hittnau",,"19",,"8335","Schweiz","8.819583","47.369516",,
+407,"Mattenstrasse","Pfäffikon",,"10",,"8330","Schweiz","8.774658","47.369693",,
+408,"Hauptstrasse","Holziken",,"9",,"5043","Schweiz","8.041663","47.319689",,
+409,"Rebmoosweg","Brugg",,"68",,"5200","Schweiz","8.217720","47.492404",,
+410,"Winsstraße","Berlin",,"14",,"10405","Deutschland","13.423318","52.534321",,
+411,"Kirchgasse","Mittersill",,"18",,"5730","Österreich","12.483202","47.279488",,
+412,"St. Gallerstrasse","Gossau",,"240",,"9200","Schweiz","9.271793","47.412845",,
+413,"Industriestrasse","Wetzikon",,"9",,"8620","Schweiz","8.797568","47.334442",,
+414,"Sindelfinger Str.","Tübingen",,"27/1",,"72070","Deutschland","9.031430","48.520050",,
+415,"Dorfstrasse","Brütten",,"18",,"8311","Schweiz","8.674747","47.473262",,
+416,"Sonnhaldenstrasse","Wallisellen",,"3",,"8304","Schweiz","8.596338","47.412269",,
+417,"Dorfstraße","Wittstock/Dosse",,"18",,"16909","Deutschland","12.420508","53.243859",,
+418,"Wehntalerstrasse","Zürich",,"639",,"8046","Schweiz","8.498175","47.422951",,
+419,"Ferdinandstraße","Berlin",,"2",,"12209","Deutschland","13.328048","52.427508",,
+420,"Bahnhofstraße","Miltach",,"19",,"93468","Deutschland","12.768600","49.162880",,
+421,"Forchstrasse","Zürich",,"190",,"8032","Schweiz","8.567461","47.360156",,
+422,"Aathalstrasse","Uster",,"74",,"8610","Schweiz","8.739336","47.345838",,4
+423,"Bahnhofstraße","Kirchentellinsfurt",,"26",,"72138","Deutschland","9.137881","48.531469",,
+424,"Binsenfeldstrasse","Lustenau",,"13a",,"6890","Österreich","9.666997","47.419831",,
+426,"Liechtensteinerstrasse","Feldkirch",,"45",,"6800","Österreich","9.586981","47.230889",,
+427,"Luzernerstrasse","Schötz",,"72",,"6247","Schweiz","7.996798","47.162605",,
+429,"Gländstrasse","Rothrist",,"64",,"4852","Schweiz","7.903540","47.295110",,
+430,"Emmenweidstrasse","Emmenbrücke",,"12",,"6020","Schweiz","8.275732","47.073248",,
+432,"Alte Tannerstrasse","Tann",,"37",,"8632","Schweiz","8.852355","47.270183",,
+433,"Kreuzkapellenweg","Wettingen",,"2",,"5430","Schweiz","8.340687","47.460286",,
+434,"Thunstrasse","Rubigen",,"67",,"3113","Schweiz","7.548635","46.893309",,
+436,"Nestenbergstrasse","Ebnat-Kappel",,"888",,"9642","Schweiz","9.129390","47.254378",,
+437,"Tramstrasse","Suhr",,"79",,"5034","Schweiz","8.073177","47.380943",,
+438,"Seewadelstrasse","Auslikon",,"8",,"8331","Schweiz","8.804385","47.343835",,
+439,"Bremschlstrasse","Bürs",,"22",,"6706","Österreich","9.818525","47.147560",,
+441,"Allmendstrasse","Zürich",,"11",,"8002","Schweiz","8.526016","47.352049",,
+442,"Ahornstrasse","Zürich",,"21",,"8051","Schweiz","8.567741","47.403701",,
+443,"Amthausstrasse","Dornach",,"25",,"4143","Schweiz","7.607828","47.488317",,
+444,"Feldeggstrasse","Winterthur",,"3",,"8406","Schweiz","8.712252","47.489325",,
+445,"Keplerstrasse","Göppingen",,"22",,"73035","Deutschland","9.640070","48.695430",,
+446,"Burgstrasse","Uster",,"75",,"8610","Schweiz","8.725880","47.341228",,
+447,"Weyerstrasse","Wabern",,"26",,"3084","Schweiz","7.456628","46.928140",,
+448,"Zugerstrasse","Cham",,"6",,"6330","Schweiz","8.460078","47.181263",,
+449,"Gruberstrasse","Heiden",,"2",,"9410","Schweiz","9.530416","47.446986",,
+450,"Bahnhofstrasse","Meggen",,"10a",,"6045","Schweiz","8.382298","47.049776",,
+451,"Wagnerstrasse","Bern",,"11",,"3007","Schweiz","7.424595","46.943914",,
+452,"Else Züblin-Str.","Winterthur",,"19/Gebäude 712",,"8404","Schweiz","8.763207","47.501356",,
+453,"Dorfstrasse","Gümligen",,"11a",,"3073","Schweiz","7.503653","46.936233",,
+454,"Breitistrasse","Wetzikon",,"25",,"8620","Schweiz","8.8110529","47.3384795",,
+455,"Riedenerstrasse","Wallisellen",,"52",,"8304","Schweiz","8.6017676","47.4162527",,
+456,"Poststrasse","Volketswil",,"15",,"8604","Schweiz","8.6928864","47.3882837",,
+457,"Edikerstrasse","Dürnten",,"18c / alte Seidenfabrik",,"8635","Schweiz","8.843165","47.281559",,
+458,"Landschaustrasse","Luzern",,"9",,"6006","Schweiz","8.3149077","47.0614056",,
+459,"Am Wasser","Dübendorf",,"1",,"8600","Schweiz","8.604731","47.404188",,
+460,"Leihgasse","Baar",,"4",,"6340","Schweiz","8.5270787","47.1941643",,
+462,"Elfenweg","Zürich",,"15",,"8038","Schweiz","8.524037","47.348397",,
+463,"Wallikerstrasse","Pfäffikon",,"76",,"8330","Schweiz","8.792615","47.373463",,
+464,"Dennliweg","Langenthal",,"54",,"4900","Schweiz","7.7788944","47.2019371",,
+465,"Lauterbachstrasse","Albstadt",,"1",,"72459","Deutschland","8.94344","48.21342",,
+466,"Tössstrasse","Rorbas",,"2",,"8427","Schweiz","8.579110","47.533622",,
+467,"Venusstrasse","Augst",,"5",,"4302","Schweiz","7.7276141","47.5312604",,
+468,"Bahnhofweg","Immensee",,"1",,"6405","Schweiz","8.4675198","47.0888935",,
+469,"Fraunhoferstaße","Martinsried",,"3",,"82152","Deutschland","11.451958","48.108920",,
+470,"Grindelstrasse","Volketswil",,"8",,"8604","Schweiz","8.6648314","47.385716",,
+471,"Haltenstrasse","Meilen",,"10",,"8706","Schweiz","8.6548532","47.2669293",,
+473,"Borsteler Chaussee","Verden/Aller",,"116",,"27283","Deutschland","9.26974","52.91074",,
+474,"Rautenastrasse","Roethis",,"9",,"6832","Österreich","9.653623","47.291715",,
+475,"Oelder Straße","Ennigerloh",,"94",,"59320","Deutschland","8.043060","51.833830",,
+476,"Halenfeldstrasse","Ittigen",,"1",,"3063","Schweiz","7.4816604","46.9769811",,
+477,"Lindenmoosstrasse","Affoltern a.A.",,"10",,"8910","Schweiz","8.4446077","47.2707598",,
+478,"Klosterweg","Flintsbach am Inn",,"1",,"83126","Deutschland","12.120481","47.726996",,
+479,"Bodenseestraße","Lindau",,"33",,"88131","Deutschland","9.683344","47.595860",,
+480,"Badweg","Schöftland",,"14",,"5040","Schweiz","8.047393","47.299893",,
+484,"Zimmersmühlenweg","Oberursel",,"75",,"61440","Deutschland","8.584763","50.186965",,
+486,"Alte Landstrasse","Männedorf",,"413",,"8708","Schweiz","8.707853","47.247738",,
+487,"Rosslimatte","Luzern",,"49",,"6005","Schweiz","8.3122075","47.0441347",,
+488,"Obere Goldey","Unterseen",,"73",,"3800","Schweiz","7.8530284","46.6892309",,
+489,"Aathalstrasse","Uster",,"65",,"8610","Schweiz","8.7343965","47.3453758",,
+490,"Boschstrasse","Geisenhausen",,"18",,"84144","Deutschland","12.2493392","48.4788648",,
+491,"Guschstrasse","Uster",,"32",,"8610","Schweiz","8.7238357","47.3453712",,
+492,"Alpenstrasse","Amriswil",,"32",,"8580","Schweiz","9.3105864","47.5503847",,
+494,"Aathalstrasse","Uster",,"59",,"8610","Schweiz","8.7339016","47.3455485",,
+495,"Riedweg","Full-Reuenthal",,"525",,"5324","Schweiz","8.2039343","47.6037643",,
+496,"Wallisellenstrasse","Zürich",,"241",,"8050","Schweiz","8.558985","47.411026",,
+497,"Grubenstrasse","Zürich",,"56",,"8045","Schweiz","8.510802","47.362792",,
+498,"Regensdorferstrasse","Zuerich",,"190",,"8049","Schweiz","8.4841445","47.4130768",,
+502,"Am Borsigturm","Berlin",,"17",,"13507","Deutschland","13.2844678","52.5835575",,
+503,"Ebenfurtherstraße","Landegg",,"6",,"2486","Österreich","16.3955526","47.9000845",,
+505,"Dättlikerstrasse","Freienstein",,"33",,"8427","Schweiz","8.5855038","47.5327072",,
+506,"Mülacher","Buttisholz",,"42",,"6018","Schweiz","8.1009467","47.1171428",,
+507,"Curtins","Zernez",,"101A",,"7530","Schweiz","10.0947782","46.7012707",,
+510,"Laupenstrasse","Bern",,"8",,"3008","Schweiz","7.4363351","46.9474786",,
+511,"Industriestrasse","Sempach Station",,"7",,"6203","Schweiz","8.202645","47.1163567",,
+513,"Dorfstrasse","Albbruck",,"20",,"79774","Deutschland","8.11027","47.58661",,
+514,"Grünmattstrasse","Emmen",,"8",,"6032","Schweiz","8.3103155","47.0831757",,
+517,"Astrastrasse","Steffisburg",,"23",,"3612","Schweiz","7.6293724","46.7736636",,
+519,"Unterseestrasse","Arosa",,"7",,"7050","Schweiz","9.6818608","46.7802394",,
+520,"Hauptstrasse","Balgach",,"8",,"9436","Schweiz","9.6125325","47.4088951",,
+525,"Südallee","Aarau",,"11",,"5000","Schweiz","8.0598101","47.3860251",,
+526,"Altreuteweg","Bregenz",,"1",,"6900","Österreich","9.7541853","47.506537",,
+529,"Fraunhoferstaße","Planegg",,"3",,"82152","Deutschland","11.44749","48.11005",,
+530,"Dr.-Schneider-Straße","Höchst",,"33",,"6973","Österreich","9.6417412","47.4625709",,
+532,"Rothenbad","Luzern",,"18",,"6015","Schweiz","8.2770278","47.068561",,
+534,"Hindenburgstrasse","Herrenberg",,"17",,"71083","Deutschland","8.870715","48.594811",,
+535,"Sensemattstrasse","Mittelhäusern",,"307","Postfach","3147","Schweiz","7.3636657","46.8791193",,
+536,"Beusselstraße","Berlin",,"86",,"10553","Deutschland","13.3275354","52.5252799",,
+537,"Sandackerstrasse","Tuggen",,"3",,"8856","Schweiz","8.9356661","47.2036809",,
+538,"Neumattweg","Ibach",,"7",,"6438","Schweiz","8.6341828","47.0105289",,
+539,"Bielstrasse","Brügg",,"75",,"2555","Schweiz","7.267226","47.123821",,
+540,"Steigstrasse","Turgi",,"20",,"5300","Schweiz","8.249228","47.4983325",,
+541,"Falkenplatz","Bern",,"5",,"3012","Schweiz","7.4352827","46.9509028",,
+543,"Striempelrankweg","Langnau am Albis",,"2",,"8135","Schweiz","8.5313915","47.2796547",,
+545,"Grampenweg","Bülach",,"23",,"8180","Schweiz","8.5362499","47.5166465",,
+547,"Breitlenstrasse","Otelfingen",,"28",,"8112","Schweiz","8.3903374","47.4648962",,
+548,"Lembergstrasse","Reutlingen",,"8",,"72766","Deutschland","9.2212206","48.5138335",,
+549,"Karrenwaldstrasse","Niederwil",,"2",,"5524","Schweiz","8.2948356","47.3757585",,
+553,"Kirchenfeldstrasse","Muri",,"41",,"5630","Schweiz","8.3423848","47.2696638",,
+554,"Flurstrasse","Altstätten SG",,"12",,"9450","Schweiz","9.5493041","47.3809769",,
+555,"Compognastrasse","Thusis",,"33",,"7430","Schweiz","9.4401824","46.703033",,
+556,"Pipinstrasse","Paderborn",,"33",,"33098","Deutschland","8.7462583","51.7133414",,
+557,"Schürlimattstrasse","Trimbach",,"15",,"4632","Schweiz","7.9059001","47.3662028",,
+559,"Bühlwiesenstrasse","Zürich",,"1",,"8052","Schweiz","8.5467547","47.4175703",,
+560,"Birkenweg","Kleindöttingen",,"5",,"5314","Schweiz","8.2451074","47.5694226",,
+561,"Haltikerstrasse","Küssnacht am Rigi",,"48a",,"6403","Schweiz","8.4327292","47.0871184",,
+562,"Rösrather Straße","Köln",,"267D",,"51107","Deutschland","7.06164","50.92809",,
+563,"Rosenweg","Schlieren",,"1",,"8952","Schweiz","8.448309","47.4044724",,
+564,"Davidstrasse","St. Gallen",,"24",,"9000","Schweiz","9.3695793","47.4206423",,
+568,"Parkstrasse","Davos Platz",,"10",,"7270","Schweiz","9.8159108","46.7916393",,
+569,"Max-Planck-Straße","Schramberg-Sulgen",,"25",,"78713","Deutschland","8.42697","48.23154",,
+570,"Fabrikwisstrasse","Hofen",,"2",,"8242","Schweiz","8.677683","47.7821139",,
+571,"Langgasse","St. Gallen",,"18",,"9008","Schweiz","9.3858337","47.4350306",,
+572,"Hebbelstraße","Stuttgart",,"1",,"70197","Deutschland","9.1482064","48.7702302",,
+573,"Buckstrasse","Wädenswil",,"16",,"8820","Schweiz","8.6747289","47.2269677",,
+574,"Freiburgstrasse","Bern",,"476",,"3018","Schweiz","7.3842573","46.9301916",,
+575,"Gyrhaldendtrasse","Bergdietikon",,"5",,"8962","Schweiz","8.3748963","47.396941",,
+576,"Aspstrasse","Ohringen-Seuzach",,"8",,"8472","Schweiz","8.7075248","47.5277126",,
+577,"Monbijoustrasse","Bern",,"89",,"3007","Schweiz","7.4363606","46.9390652",,
+578,"Säntisstrasse","Dietlikon",,"30",,"8305","Schweiz","8.6194628","47.423941",,
+579,"Walkestrasse","Kölliken",,"6",,"5742","Schweiz","8.0271255","47.3316513",,
+580,"Birchstrasse","Zürich",,"6","Postfach 6115","8050","Schweiz","8.5348398","47.403846",,
+581,"Thalerstrasse","Rheineck",,"62a",,"9424","Schweiz","9.5814516","47.4667672",,
+582,"Heerenwiesen","Zürich",,"32","Postfach 12","8051","Schweiz","8.5750107","47.4051446",,
+583,"Söll","Gollenshausen",,"12",,"83257","Deutschland","12.4385499","47.92059",,
+584,"Klybeckstrasse","Basel",,"141","Postfach","4002","Schweiz","7.5893926","47.5716648",,
+585,"Brambergstrasse","Luzern",,"33",,"6004","Schweiz","8.3002883","47.0567678",,
+586,"Werkstrasse","Lyss",,"47",,"3250","Schweiz","7.295827","47.0694615",,
+587,"Wyermatt","Ibach",,"4",,"6438","Schweiz","8.6517283","47.0105435",,
+588,"Marktstrasse","Muotathal",,"18a",,"6436","Schweiz","8.7606405","46.9742466",,
+589,"Kapuzinerstrasse","Burgau",,"8",,"89331","Deutschland","10.4072534","48.4334001",,
+590,"Gulp","Willisau",,"1",,"6130","Schweiz","7.9986171","47.1208406",,
+720,"Jägerstraße","Neumarkt",,"42",,"92318","Deutschland","11.4253447","49.2863716",,
+592,"Bahnweg","Grafenstein",,"13",,"9131","Österreich","14.4503738","46.6202442",,
+593,"Zypressenstrasse","Zürich",,"58",,"8004","Schweiz","8.5134931","47.3774571",,
+594,"Letzistrasse","Zug",,"5c",,"6300","Schweiz","8.4990509","47.1777865",,
+595,"Volmestraße","Kierspe",,"252",,"58566","Deutschland","7.6173857","51.1368019",,
+596,"Lindenmattstrasse","Meisterschwanden",,"11",,"5616","Schweiz","8.229428","47.297583",,
+597,"Gubelstrasse","Zug",,"12",,"6300","Schweiz","8.5179783","47.174534",,
+598,"Brünigstrasse","Luzern",,"24",,"6005","Schweiz","8.3105348","47.0424774",,
+599,"Gurnigelweg","Steffisburg",,"18",,"3612","Schweiz","7.6277535","46.7725651",,
+600,"Aumattstrasse","Windisch",,"7",,"5210","Schweiz","8.2244073","47.4725752",,
+601,"Bahnhofstrasse","Weywertz",,"72",,"4750","Belgium","6.16478","50.43533",,
+602,"Provenceweg","Tübingen",,"22",,"72072","Deutschland","9.0778895","48.5118809",,
+603,"Wilen","Illighausen",,"14",,"8574","Schweiz","9.2100674","47.606962",,
+604,"Püntstrasse","Wila",,"12",,"8492","Schweiz","8.8443012","47.4229924",,
+605,"Tscherfingergasse","Heiligkreuz",,"37",,"8888","Schweiz","9.4159592","47.0587087",,
+606,"St. Luzistrasse","Chur",,"10",,"7000","Schweiz","9.5368137","46.8462203",,
+607,"Mövenstrasse","St. Gallen",,"12",,"9015","Schweiz","9.3109031","47.4031729",,
+608,"Sophie-Scholl-Weg","Stade",,"3",,"21684","Deutschland","9.5011","53.57046",,
+609,"Rütilochstrasse","Spreitenbach",,"44",,"8957","Schweiz","8.3668633","47.4133673",,
+610,"Gartenstrasse","Esslingen",,"14",,"73734","Deutschland","9.3174335","48.7199103",,
+611,"Untergasse","Elgg",,"17",,"8353","Schweiz","8.865468","47.4908396",,
+612,"Brandstrasse","Schlieren",,"24",,"8952","Schweiz","8.4446562","47.4017988",,
+613,"Rynächtstrasse","Altdorf",,"13","Postfach 735","6460","Schweiz","8.6329463","46.8723616",,
+614,"Fischingerstrasse","Sirnach",,"61",,"8370","Schweiz","8.9893878","47.4578082",,
+615,"Kälberschüttstrasse","Ingolstadt",,"1b",,"85053","Deutschland","11.4766078","48.7514374",,
+616,"Büölplatz","Brunnen",,"23",,"6440","Schweiz","8.6028144","46.9973059",,
+617,"Ziegelmattstrasse","Horgen",,"23",,"8810","Schweiz","8.6205298","47.2516851",,
+618,"Wasserwerkgasse","Bern 13",,"8",,"3000","Schweiz","7.457356","46.9470994",,
+619,"Grubigsteinstraße","Wolfratshausen",,"13",,"82515","Deutschland","11.4377994","47.9058711",,
+620,"Dorfstrasse","Stäfa",,"2",,"8712","Schweiz","8.734817","47.2378711",,
+621,"Schramet","Sulz",,"10",,"5085","Schweiz","8.0991798","47.5372137",,
+622,"Bahnstrasse","Schwerzenbach",,"10",,"8603","Schweiz","8.6600871","47.3842265",,
+623,"Segantinistrasse","Chur",,"5",,"7000","Schweiz","9.5226328","46.8533756",,
+624,"Glutz-Blotzheim-Strasse","Solothurn",,"3",,"4500","Schweiz","7.5280564","47.2024023",,
+625,"Hauptstrasse","Nartum",,"25",,"27404","Deutschland","9.25168","53.20415",,
+626,"Guggenloch","Lütisburg",,"78",,"9604","Schweiz","9.0710381","47.3922611",,
+627,"Städeligarten","Buochs",,"2",,"6374","Schweiz","8.4151706","46.9742196",,
+628,"Birchstrasse","Zürich",,"122",,"8050","Schweiz","8.5377872","47.409278",,
+629,"Neuhauser Strasse","Stuttgart",,"37/1",,"70599","Deutschland","9.21821","48.69982",,
+630,"Rossgasse","Lenningen Schopfloch",,"4",,"73252","Deutschland","9.52963","48.5404865",,
+631,"Finkensteinstraße","Pforzheim",,"6",,"75179","Deutschland","8.6492259","48.8765581",,
+634,"Kilchmatt","Brunnen",,"7",,"6440","Schweiz","8.6213374","47.000664",,
+635,"Richard Wagner-Strasse","Zürich",,"21",,"8002","Schweiz","8.532874","47.3597436",,
+636,"Gremmstrasse","Teufen",,"11B",,"9053","Schweiz","9.3873604","47.3919906",,
+637,"Kleine Marschstrasse","Bremen",,"19",,"28309","Deutschland","8.8877896","53.0440381",,
+638,"Oberdorfstrasse","Zollikon",,"33",,"8702","Schweiz","8.5760907","47.3414614",,
+639,"Uettligenstrasse","Ortschwaben",,"13",,"3042","Schweiz","7.3985712","46.9893571",,
+640,"Ketzergasse","Wien",,"222",,"1230","Österreich","16.2878151","48.1311",,
+641,"Lindenweg","Altbüron",,"1",,"6147","Schweiz","7.8830389","47.1843756",,
+642,"Flüelastrasse","Zürich",,"31A",,"8047","Schweiz","8.4957783","47.3816504",,
+643,"Wiligraben","Staufen",,"26",,"5603","Schweiz","8.1708506","47.3844112",,
+644,"Moosstrasse","St. Gallen",,"31c",,"9014","Schweiz","9.3418779","47.4109226",,
+645,"Köhlerweg","Hagen",,"14",,"58093","Deutschland","7.5188311","51.3519762",,
+646,"Herrengütlistrasse","Wallisellen",,"25",,"8304","Schweiz","8.5844033","47.4203416",,
+647,"Bahnhofsträssli","Trimmis",,"4",,"7203","Schweiz","9.5574428","46.9067446",,
+648,"Ahornweg","Emmenbrücke",,"3",,"6020","Schweiz","8.2941637","47.0722847",,
+649,"St. Jakobstrasse","Muttenz",,"22",,"4133","Schweiz","7.6891675","47.5197448",,
+651,"Fällmisstrasse","Wilen-Wollerau",,"43",,"8832","Schweiz","8.7293448","47.1940463",,
+652,"Aarstrasse","Bern",,"76",,"3011","Schweiz","7.4480769","46.9461224",,
+653,"Zielweg","Bern",,"7",,"3014","Schweiz","7.4537971","46.9597078",,
+654,"Poliateren","Blankenburg",,"2",,"3771","Schweiz","7.3877801","46.5427943",,
+655,"Gfennstrasse","Schwerzenbach",,"2",,"8603","Schweiz","8.6522757","47.3826579",,
+656,"Mühlhäusern","Näfels",,"15",,"8752","Schweiz","9.0693168","47.100615",,
+657,"Haus Theodul","Randa",,"1",,"3928","Schweiz","7.7466498","46.0227841",,
+658,"Industriestraße","Gröbenzell",,"44b",,"82194","Deutschland","11.38956","48.18473",,
+659,"Wesemlinrain","Luzern",,"16",,"6006","Schweiz","8.3111603","47.05965",,
+660,"Breitacher","Saland",,"6",,"8493","Schweiz","8.8505018","47.39122",,
+661,"Weidenweg","Brig-Glis",,"231",,"3902","Schweiz","7.9666108","46.3097145",,
+662,"Lettenstrasse","Ruggell",,"38",,"9491","Liechtenstein","9.5270782","47.2363376",,
+663,"Via Sela","St. Moritz",,"9",,"7500","Schweiz","9.840457","46.4876362",,
+664,"Zeppelin Strasse","Düsseldorf",,"44",,"40231","Deutschland","6.8335382","51.2055043",,
+665,"Dorfstrasse","Wauwil",,"13",,"6242","Schweiz","8.0177584","47.1847439",,
+666,"Gewerbestrasse","Hallau",,"9",,"8215","Schweiz","8.465281","47.693909",,
+667,"Gewerbestrasse","Bellach",,"15",,"4512","Schweiz","7.4987123","47.2106756",,
+668,"Binterimstrasse","Düsseldorf",,"9",,"40223","Deutschland","6.7726167","51.2066102",,
+670,"Abteistrasse","Ulm",,"14",,"89079","Deutschland","9.9873335","48.3616658",,
+671,"Oberdorf"," Winterbach",,"21",,"73650","Deutschland","9.4796157","48.7984326",,
+672,"Joweid-Zentrum","Rüti",,"18",,"8630","Schweiz","8.8548121","47.2641528",,
+673,"Bänklialpweg","Engelberg",,"11",,"6390","Schweiz","8.4081457","46.8182624",,
+674,"Industriestrasse","Gossau ZH",,"5",,"8625","Schweiz","8.7511924","47.3050328",,
+675,"Vonmattstrasse","Luzern",,"24a",,"6003","Schweiz","8.2996251","47.0473857",,
+676,"Grütstrasse","Gossau",,"14",,"8625","Schweiz","8.7557358","47.3066877",,
+677,"Strickstrasse","Uster",,"1",,"8610","Schweiz","8.7121195","47.3552162",,
+678,"Eichenstrasse","Frankfurt",,"66",,"65933","Deutschland","8.6003003","50.0953232",,
+679,"Lustnaustrasse","Sattel",,"12",,"6417","Schweiz","8.6403292","47.0844065",,
+680,"Sägemattstrasse","Liebefeld",,"9",,"3097","Schweiz","7.415563","46.9271261",,
+681,"Kirchweg","Oberengstringen",,"54",,"8102","Schweiz","8.4701159","47.4058029",,
+682,"Gartenstr.","Baden-Baden",,"1",,"76534","Deutschland","8.1802627","48.7395197",,
+683,"Bennwilerstrasse","Niederdorf",,"44",,"4435","Schweiz","7.7585713","47.4075697",,
+684,"Allmendstrasse","Bellach",,"1",,"4512","Schweiz","7.4989091","47.2081249",,
+685,"Zeisigweg","Remshalden",,"3",,"73630","Deutschland","9.43214","48.81446",,
+686,"Joseph Belli Weg","Konstanz",,"27",," 78467","Deutschland","9.1622429","47.6782685",,
+687,"Lenggasse","Meiringen",,"22",,"3860","Schweiz","8.19074","46.7273922",,
+688,"Reinbeckstrasse","Stuttgart",,"52",,"70565","Deutschland","9.10028","48.71594",,
+689,"Kehlerstraße","Dornbirn",,"11",,"6850","Österreich","9.7477261","47.4173363",,
+690,"Kaselfeldstrasse","Bellach",,"1",,"4512","Schweiz","7.5007004","47.2150017",,
+691,"Buchholzer Str. 63 d","Berlin",,"1",,"13156","Deutschland","13.4131221","52.591794",,
+692,"Schwizerstrasse","Uster",,"51",,"8610","Schweiz","8.7205266","47.3389473",,
+693,"Möskenweg","Zinnowitz",,"14a",,"17454","Deutschland","13.9093988","54.0733299",,
+694,"Tschertligasse","Egerkingen",,"1a",,"4622","Schweiz","7.7984742","47.3154705",,
+695,"Thurfeldstrasse","Schönenberg",,"10",,"9215","Schweiz","9.2011217","47.5214519",,
+696,"Wiesental","Basadingen",,"10",,"8254","Schweiz","8.744075","47.6707727",,
+697,"Veteranenstrasse","Stuttgart",,"11",,"70565","Deutschland","9.102629","48.7186698",,
+698,"Treuackerstrasse","St. Gallen",,"32",,"9000","Schweiz","9.3628144","47.4154597",,
+699,"Industriestrasse","Beromünster",,"19",,"6215","Schweiz","8.2053453","47.2023625",,
+700,"Hintermühlenstrasse","Winterthur",,"2",,"8409","Schweiz","8.7733192","47.5044801",,
+701,"Allmendweg","Geuensee",,"4",,"6232","Schweiz","8.102622","47.1951806",,
+702,"Jacques-Reiss-Straße","Kronberg im Taunus",,"1",,"61476","Deutschland","8.5220485","50.1771709",,
+703,"Seckenheimerstraße","Mannheim",,"75",,"68165","Deutschland","8.4874432","49.4764756",,
+401,"Bleichemattstrasse","Aarau",,"43",,"5000","Schweiz","8.088900","47.387391",,
+704,"Bürenstrasse","Solothurn",,"19",,"4500","Schweiz","7.5350181","47.2020009",,
+705,"Zelgstrasse","Adliswil",,"28",,"8134","Schweiz","8.5170621","47.3178474",,
+706,"Alte Dübendorferstrasse","Dietlikon",,"8",,"8305","Schweiz","8.6185084","47.4164172",,
+707,"Untere Gasse","Münstertal",,"14",,"79244","Deutschland","7.8409647","47.8749827",,
+708,"Zelgackerstrasse","Tann",,"22",,"8632","Schweiz","8.848967","47.2642735",,
+709,"Wolhuserstrasse","Ruswil",,"41",,"6017","Schweiz","8.1148888","47.0806219",,
+710,"Bleicherstrasse","Luzern",,"20","Postfach 39","6003","Schweiz","8.3055054","47.0412179",,
+712,"Honiggasse","Heitersheim",,"2",,"79423","Deutschland","7.6675433","47.8698172",,
+713,"Muristrasse","Bern",,"90",,"3006","Schweiz","7.468892","46.939934",,
+714,"Kantonsstrasse","Horw",,"160",,"6048","Schweiz","8.3077224","47.0120867",,
+715,"Friedhofweg","Egliswil",,"21",,"5704","Schweiz","8.1881561","47.3480495",,
+716,"Lomattenstrasse","Saas Fee",,"10",,"3906","Schweiz","7.9294424","46.1111021",,
+717,"Alpenstrasse","Gümligen",,"14",,"3073","Schweiz","7.4982418","46.9369363",,
+718,"Oberdorfstrasse","Horgen",,"33",,"8810","Schweiz","8.5894072","47.2597112",,
+721,"Grabenmattenstrasse","Stetten AG",,"1",,"5608","Schweiz","8.3119524","47.4034632",,
+722,"Niederämterstrasse","Dulliken",,"22",,"4657","Schweiz","7.9324991","47.3531841",,
+723,"Hintergasse","Salenstein",,"19",,"8268","Schweiz","9.0528322","47.6714729",,
+724,"Bleichstraße","Bad Kreuznach",,"23",,"55543","Deutschland","7.8646102","49.8456455",,
+725,"Chrüzhubel","Bösingen",,"32",,"3178","Schweiz","7.2314491","46.8900038",,
+726,"Steinstraße","Stuttgart",,"26",,"70186","Deutschland","9.1764827","48.7735547",,
+160,"Mühlemattli","Giswil",,"10",,"6074","Schweiz","8.1776503","46.8324426",,4
+262,"Furkastrasse","Naters",,"5",,"3904","Schweiz","7.9869627","46.3227592",,4
+311,"Grüningerstrasse","Ottikon",,"174",,"8626","Schweiz","8.777039","47.2931852",,4
+632,"Kriegsbergstraße","Waiblingen",,"11",,"71336","Deutschland","9.3252388","48.8621457",,
