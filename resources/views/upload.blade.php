@@ -6,6 +6,9 @@
 <body>
 <div id="login">
     <h3 class="text-center text-white pt-5">Upload the back-up</h3>
+    <h3 class="text-center text-white pt-5"><a href="/tables">See current list of tables</a></h3>
+    <h3 class="text-center text-white pt-5"><a href="/logout">Logout</a></h3>
+
     <div class="container">
         <div id="login-row" class="row justify-content-center align-items-center">
             <div id="login-column" class="col-md-6">

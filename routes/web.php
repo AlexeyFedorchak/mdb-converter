@@ -83,14 +83,24 @@ Route::get('/fetch', function () {
             'error' => 'No data found for this table',
         ]);
 
-
-    \App\Jobs\FetchTable::dispatch($table)->onQueue('default');
-    sleep(5);
+    if (empty($table->filename)) {
+        \App\Jobs\FetchTable::dispatch($table)->onQueue('default');
+        sleep(5);
+    }
 
     return view('fetch')->with([
         'rows' => explode("\n", file_get_contents($table->name . '.csv')),
         'table' => $table,
     ]);
+});
+
+Route::get('/clear', function () {
+    if (!auth()->check())
+        return redirect()->to('/login');
+
+    \App\Models\Table::truncate();
+
+    return redirect()->to('/tables');
 });
 
 

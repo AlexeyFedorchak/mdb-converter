@@ -7,6 +7,9 @@
         {{ $error }}
     </div>
 @endif
+<h3><a href="/tables">Back</a></h3>
+<h3><a href="/upload">Upload new file</a></h3>
+<h3><a href="/logout">Logout</a></h3>
 <table border="1">
     <caption>{{ $table->name }}</caption>
     <tr>

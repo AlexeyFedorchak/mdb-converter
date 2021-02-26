@@ -5,7 +5,8 @@
 <div class="alert alert-success" role="alert">
     The database successfully updated!
 </div>
-
+<h3><a href="/upload">Upload new file</a></h3>
+<h3><a href="/logout">Logout</a></h3>
 <h1>Found tables:</h1>
 
 <ul class="list-group">
