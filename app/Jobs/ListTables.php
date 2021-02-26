@@ -21,7 +21,7 @@ class ListTables implements ShouldQueue
      */
     public function handle()
     {
-        $tables = shell_exec('mdb-tables public/data.mdb');
+        $tables = shell_exec('mdb-tables ' . env('USER_PATH') . 'public/data.mdb');
 
         Table::truncate();
 

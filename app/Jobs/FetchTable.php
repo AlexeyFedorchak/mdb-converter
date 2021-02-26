@@ -33,7 +33,7 @@ class FetchTable implements ShouldQueue
      */
     public function handle()
     {
-        shell_exec('mdb-export public/data.mdb ' . $this->table->name . ' > ' . 'public/' . $this->table->name . '.csv');
+        shell_exec('mdb-export ' . env('USER_PATH') . 'public/data.mdb ' . $this->table->name . ' > ' . env('USER_PATH') . 'public/' . $this->table->name . '.csv');
 
         $this->table->filename = $this->table->name . '.csv';
         $this->table->save();
