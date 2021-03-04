@@ -103,5 +103,17 @@ Route::get('/clear', function () {
     return redirect()->to('/tables');
 });
 
+Route::get('/fetch-data', function () {
+    $tables = \Illuminate\Support\Facades\DB::select('SHOW TABLES');
+
+    $data = [];
+    foreach ($tables as $key => $tableName) {
+        $tableData = \Illuminate\Support\Facades\DB::select('SELECT * FROM ' . $tableName->Tables_in_ktc);
+        $data[$tableName->Tables_in_ktc] = $tableData;
+    }
+
+    dd($data);
+});
+
 
 
