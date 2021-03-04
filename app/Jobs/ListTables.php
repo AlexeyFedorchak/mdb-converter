@@ -29,7 +29,8 @@ class ListTables implements ShouldQueue
             if (empty(trim($table)))
                 continue;
 
-            Table::create(['name' => $table]);
+            $table = Table::create(['name' => $table]);
+            FetchTable::dispatch($table)->onQueue('default');
         }
     }
 }
