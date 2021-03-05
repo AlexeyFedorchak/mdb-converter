@@ -115,7 +115,7 @@ Route::get('/fetch-data', function () {
     dd($data);
 });
 
-Route::get('/data', function () {
+Route::post('/data', function () {
     if (empty(request()->query_string))
         return response('`query_string` is required!', 422);
 
