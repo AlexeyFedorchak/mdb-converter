@@ -115,19 +115,13 @@ Route::get('/fetch-data', function () {
     dd($data);
 });
 
-Route::get('/shop', function () {
-    return \Illuminate\Support\Facades\DB::select(\Illuminate\Support\Facades\DB::raw('
-    SELECT tblArticleCategories.pkArticleCategory,
-                                       tblArticleCategories.articleCategory,
-                                       tblArticleCategoryDetails.articleCategoryDetailName,
-                                       tblArticleCategories.articleCategorySortKey,
-                                       tblArticleCategories.articleCategoryImageKey,
-                                       tblArticleCategoryDetails.articleCategoryButtonText,
-                                       tblArticleCategoryDetails.languageCode
-FROM tblArticleCategories INNER JOIN tblArticleCategoryDetails ON tblArticleCategories.pkArticleCategory = tblArticleCategoryDetails.fkArticleCategory
-WHERE (((tblArticleCategoryDetails.languageCode)="de-CH"))
-                                       ORDER BY tblArticleCategories.articleCategorySortKey
-    '));
+Route::get('/data', function () {
+    if (empty(request()->query_string))
+        return response('`query_string` is required!', 422);
+
+    return \Illuminate\Support\Facades\DB::select(
+        \Illuminate\Support\Facades\DB::raw(request()->query_string)
+    );
 });
 
 
