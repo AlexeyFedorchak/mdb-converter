@@ -120,7 +120,7 @@ Route::get('/data', function () {
         return response('`query_string` is required!', 422);
 
     return \Illuminate\Support\Facades\DB::select(
-        \Illuminate\Support\Facades\DB::raw(request()->query_string)
+        \Illuminate\Support\Facades\DB::raw(urldecode(request()->query_string))
     );
 });
 
