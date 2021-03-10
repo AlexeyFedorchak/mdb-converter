@@ -100,7 +100,9 @@ Route::get('/clear', function () {
 
     foreach (\App\Models\Table::all() as $table) {
         \Illuminate\Support\Facades\Schema::dropIfExists(str_replace('.csv', '', $table->filename));
-        unlink($table->filename);
+
+        if (file_exists($table->filename))
+            unlink($table->filename);
     }
 
     \App\Models\Table::truncate();
