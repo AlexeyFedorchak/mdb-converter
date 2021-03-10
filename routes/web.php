@@ -98,6 +98,9 @@ Route::get('/clear', function () {
     if (!auth()->check())
         return redirect()->to('/login');
 
+    foreach (\App\Models\Table::all() as $table)
+        \Illuminate\Support\Facades\Schema::dropIfExists(str_replace('.csv', '', $table->filename));
+
     \App\Models\Table::truncate();
 
     return redirect()->to('/tables');
