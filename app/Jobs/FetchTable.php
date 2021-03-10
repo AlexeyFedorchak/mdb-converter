@@ -102,7 +102,7 @@ class FetchTable implements ShouldQueue
         $steps = 1;
         $data = [];
 
-        while($row = fgetcsv($tableHandler, 1000)) {
+        while($row = fgetcsv($tableHandler, 5000)) {
             if ($iteration >= $start && $steps <= $offset) {
                 $data[] = $row;
 

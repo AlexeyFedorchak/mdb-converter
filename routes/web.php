@@ -99,7 +99,8 @@ Route::get('/clear', function () {
         return redirect()->to('/login');
 
     foreach (\App\Models\Table::all() as $table) {
-        \Illuminate\Support\Facades\Schema::dropIfExists(str_replace('.csv', '', $table->filename));
+        if (!empty($table->filename))
+            \Illuminate\Support\Facades\Schema::dropIfExists(str_replace('.csv', '', $table->filename));
 
         if (file_exists($table->filename))
             unlink($table->filename);
