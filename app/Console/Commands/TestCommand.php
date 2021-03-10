@@ -2,6 +2,8 @@
 
 namespace App\Console\Commands;
 
+use App\Jobs\FetchTable;
+use App\Models\Table;
 use Illuminate\Console\Command;
 
 class TestCommand extends Command
@@ -27,6 +29,7 @@ class TestCommand extends Command
      */
     public function handle()
     {
-        dd(1);
+        $table = Table::where('filename', 'tblPaintDetails.csv')->first();
+        FetchTable::dispatch($table)->onQueue('default');
     }
 }

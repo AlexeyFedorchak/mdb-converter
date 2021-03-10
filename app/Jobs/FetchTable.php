@@ -40,6 +40,7 @@ class FetchTable implements ShouldQueue
         $this->table->filename = $this->table->name . '.csv';
         $this->table->save();
 
+        Schema::dropIfExists($this->table->name);
         if (!Schema::hasTable($this->table->name)) {
             $firstRow = $this->getRow($this->table);
             $columns = [];
@@ -50,7 +51,6 @@ class FetchTable implements ShouldQueue
                 $columnsNames[] = $column;
             }
 
-            Schema::dropIfExists($this->table->name);
             DB::statement('
                     CREATE TABLE '. $this->table->name . ' (
                         id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -69,8 +69,11 @@ class FetchTable implements ShouldQueue
 
                 $rowData = '"' . implode('","', $data[0]) . '"';
 
-                if (strlen($rowData) <= 3)
+                if (strlen($rowData) <= 3) {
+                    $start++;
+                    $data = $this->getRow($this->table, $start);
                     continue;
+                }
 
                 try {
                     DB::statement('
@@ -85,8 +88,8 @@ class FetchTable implements ShouldQueue
                 }
 
 
-                $data = $this->getRow($this->table, $start);
                 $start++;
+                $data = $this->getRow($this->table, $start);
             }
         }
     }
