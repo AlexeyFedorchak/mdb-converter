@@ -159,7 +159,7 @@ Route::get('/data', function () {
  *
  * if no query provided, return validation error..
  */
-Route::get('/send-email', function () {
+Route::post('/send-email', function () {
     if (empty(request()->email))
         return response('`Email` is required!', 422);
 
