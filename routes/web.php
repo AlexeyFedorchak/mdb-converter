@@ -13,19 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * WE don't have home link..
+ */
 Route::get('/', function () {
     return redirect()->to('/login');
 });
 
+/**
+ * get page where user can sign in
+ */
 Route::get('/login', function () {
     return view('login');
 });
 
+/**
+ * sign out user
+ */
 Route::get('/logout', function () {
     auth()->logout();
     return redirect()->to('/login');
 });
 
+/**
+ * authorize user
+ */
 Route::post('/login', function () {
     $user = \App\Models\User::where('email', request()->email)
         ->where('password', request()->password)
@@ -40,6 +52,9 @@ Route::post('/login', function () {
     return redirect()->to('/upload');
 });
 
+/**
+ * get page where user can upload the file
+ */
 Route::get('/upload', function () {
     if (!auth()->check())
         return redirect()->to('/login');
@@ -47,6 +62,9 @@ Route::get('/upload', function () {
     return view('upload');
 });
 
+/**
+ * upload the file
+ */
 Route::post('/upload', function () {
     if (!auth()->check())
         return redirect()->to('/login');
@@ -62,6 +80,9 @@ Route::post('/upload', function () {
     ]);
 });
 
+/**
+ * get page where the list of tables is displayed
+ */
 Route::get('/tables', function () {
     if (!auth()->check())
         return redirect()->to('/login');
@@ -71,6 +92,9 @@ Route::get('/tables', function () {
     ]);
 });
 
+/**
+ * fetch specific table data
+ */
 Route::get('/fetch', function () {
     if (!auth()->check())
         return redirect()->to('/login');
@@ -94,6 +118,9 @@ Route::get('/fetch', function () {
     ]);
 });
 
+/**
+ * remove all tables
+ */
 Route::get('/clear', function () {
     if (!auth()->check())
         return redirect()->to('/login');
@@ -111,18 +138,11 @@ Route::get('/clear', function () {
     return redirect()->to('/tables');
 });
 
-Route::get('/fetch-data', function () {
-    $tables = \Illuminate\Support\Facades\DB::select('SHOW TABLES');
-
-    $data = [];
-    foreach ($tables as $key => $tableName) {
-        $tableData = \Illuminate\Support\Facades\DB::select('SELECT * FROM ' . $tableName->Tables_in_ktc);
-        $data[$tableName->Tables_in_ktc] = $tableData;
-    }
-
-    dd($data);
-});
-
+/**
+ * get data from database based on provided in request query
+ *
+ * if no query provided, return validation error..
+ */
 Route::get('/data', function () {
     if (empty(request()->query_string))
         return response('`query_string` is required!', 422);
