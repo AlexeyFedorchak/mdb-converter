@@ -140,6 +140,7 @@ Route::get('/clear', function () {
 
 /**
  * get data from database based on provided in request query
+ * request: ['query_string' => String]
  *
  * if no query provided, return validation error..
  */
@@ -150,6 +151,29 @@ Route::get('/data', function () {
     return \Illuminate\Support\Facades\DB::select(
         \Illuminate\Support\Facades\DB::raw(urldecode(request()->query_string))
     );
+});
+
+/**
+ * get data from database based on provided in request query
+ * request: ['email' => String, 'subject' => String, 'text' => String]
+ *
+ * if no query provided, return validation error..
+ */
+Route::get('/send-email', function () {
+    if (empty(request()->email))
+        return response('`Email` is required!', 422);
+
+    if (empty(request()->subject))
+        return response('`Subject` is required!', 422);
+
+    if (empty(request()->text))
+        return response('`Text` is required!', 422);
+
+    \Illuminate\Support\Facades\Mail::to(request()->email)
+        ->send(new \App\Mail\GeneralEmail(
+            request()->text,
+            request()->subject
+        ));
 });
 
 
