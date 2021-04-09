@@ -176,5 +176,50 @@ Route::post('/send-email', function () {
         ));
 });
 
+/**
+ * Used packages
+ */
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\DB;
+
+/**
+ * get country data based on current location of user
+ */
+Route::get('/country', function () {
+    $ip = $_SERVER['REMOTE_ADDR'];
+
+    $country =  DB::table('countries')
+        ->where('ip', $ip)
+        ->first();
+
+    if ($country)
+        return json_decode($country->data);
+
+    $IPClient = new Client([
+        'base_uri' => 'http://api.ipstack.com/' . $ip . '?access_key=' . env('LOCATION_API'),
+        'timeout'  => 2.0,
+    ]);
+
+    $data = $IPClient->request('GET');
+    $data = json_decode($data->getBody()->getContents(), true);
+    $countryName = $data['country_name'] ?? null;
+
+    $countryClient = new Client([
+        'base_uri' => 'https://restcountries.eu/rest/v2/name/' . $countryName,
+        'timeout'  => 2.0,
+    ]);
+
+    $data = $countryClient->request('GET');
+    $data = json_decode($data->getBody()->getContents(), true)[0];
+
+    DB::table('countries')
+        ->insert([
+            'ip' => $ip,
+            'data' => json_encode($data),
+        ]);
+
+    return $data;
+});
+
 
 
