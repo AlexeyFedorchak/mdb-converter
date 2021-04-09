@@ -193,7 +193,7 @@ Route::get('/country', function () {
         ->first();
 
     if ($country)
-        return json_decode($country->data);
+        return $country->data;
 
     $IPClient = new Client([
         'base_uri' => 'http://api.ipstack.com/' . $ip . '?access_key=' . env('LOCATION_API'),
