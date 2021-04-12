@@ -13,13 +13,13 @@
 <table border="1">
     <caption>{{ $table->name }}</caption>
     <tr>
-        @foreach(explode(',', $rows[0]) as $item)
+        @foreach($rows[0] as $item)
             <th>{{ $item }}</th>
         @endforeach
     </tr>
     @foreach(array_slice($rows, 1) as $row)
         <tr>
-            @foreach(explode(',', $row) as $item)
+            @foreach($row as $item)
                 <th>{{ $item }}</th>
             @endforeach
         </tr>

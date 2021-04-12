@@ -113,7 +113,7 @@ Route::get('/fetch', function () {
     }
 
     return view('fetch')->with([
-        'rows' => explode("\n", file_get_contents($table->name . '.csv')),
+        'rows' => DB::table($table->name)->get()->toArray(),
         'table' => $table,
     ]);
 });
