@@ -224,5 +224,59 @@ Route::get('/country', function () {
     return $data;
 });
 
+use Mpdf\Mpdf;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Redis;
 
+/**
+ * create pdf and keep it in cache 1 minute..
+ */
+Route::get('/pdf/create', function () {
+    $html = request()->html;
+
+    if (!$html)
+        return response('Please provide correct HTML document!', 422);
+
+    $pdfConverter = new Mpdf();
+    $pdfConverter->WriteHTML($html);
+
+    ob_start();
+
+    $pdfConverter->Output();
+    $data = ob_get_contents();
+
+    ob_end_clean();
+
+    $key = Str::random();
+
+    //keep pdf only 1 minute
+    Redis::set('pdf-' . $key, $data, 'EX', 60 * 3);
+
+    return [
+        'key' => $key
+    ];
+});
+
+/**
+ * get pdf if exists..
+ */
+Route::get('/pdf/get', function () {
+    $key = request()->key;
+
+    if (!$key)
+        return response('Please provide correct link for fetching PDF document!', 422);
+
+    $pdf = Redis::get('pdf-' . $key);
+
+    if (!$pdf)
+        return response(
+            'PDF document is not found! It seems to be expired, please create new one..',
+            422
+        );
+
+    header("Content-type:application/pdf");
+    header("Content-Disposition:attachment;filename=file.pdf");
+
+    return $pdf;
+});
 
