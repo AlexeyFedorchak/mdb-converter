@@ -231,7 +231,7 @@ use Illuminate\Support\Facades\Redis;
 /**
  * create pdf and keep it in cache 1 minute..
  */
-Route::get('/pdf/create', function () {
+Route::post('/pdf/create', function () {
     $html = request()->html;
 
     if (!$html)
