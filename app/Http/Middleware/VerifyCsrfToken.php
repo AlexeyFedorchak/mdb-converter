@@ -14,5 +14,7 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         '/data',
         '/send-email',
+        '/pdf/create',
+        '/pdf/get',
     ];
 }
