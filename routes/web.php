@@ -92,6 +92,8 @@ Route::get('/tables', function () {
     ]);
 });
 
+use Illuminate\Support\Facades\Schema;
+
 /**
  * fetch specific table data
  */
@@ -114,6 +116,7 @@ Route::get('/fetch', function () {
 
     return view('fetch')->with([
         'rows' => DB::table($table->name)->get()->toArray(),
+        'columns' => Schema::getColumnListing($table->name),
         'table' => $table,
     ]);
 });
