@@ -16,5 +16,6 @@ class VerifyCsrfToken extends Middleware
         '/send-email',
         '/pdf/create',
         '/pdf/get',
+        '/search/update',
     ];
 }

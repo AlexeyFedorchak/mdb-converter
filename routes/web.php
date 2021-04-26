@@ -280,3 +280,59 @@ Route::get('/pdf/get', function () {
     return $pdf;
 });
 
+use App\Models\SearchIndexData;
+
+/**
+ * Update search data
+ */
+Route::get('/search/update', function () {
+    $request = request()->all();
+
+    if (empty($request['link']))
+        return response('Please provide correct link to page!', 422);
+
+    if (empty($request['title']))
+        return response('Please provide correct link to title!', 422);
+
+    if (empty($request['text']))
+        return response('Please provide correct link to text!', 422);
+
+    SearchIndexData::updateOrCreate(request()->only('link'),
+        request()->only(['title', 'text'])
+    );
+});
+
+/**
+ * search in data
+ */
+Route::get('/search', function () {
+    $search = request()->search;
+
+    if (empty($search))
+        return response('Please provide correct search phrase!', 422);
+
+    $titleExactMatches = SearchIndexData::where('title', 'LIKE', $search)
+        ->get();
+
+    $titleCloseMatches = SearchIndexData::where('title', 'LIKE', '%' . $search)
+        ->orWhere('title', 'LIKE', $search . '%')
+        ->orWhere('title', 'LIKE', '%' . $search . '%')
+        ->get();
+
+    $textExactMatches = SearchIndexData::where('text', 'LIKE', $search)
+        ->get();
+
+    $textCloseMatches = SearchIndexData::where('text', 'LIKE', '%' . $search)
+        ->orWhere('text', 'LIKE', $search . '%')
+        ->orWhere('text', 'LIKE', '%' . $search . '%')
+        ->get();
+
+    return $titleExactMatches
+        ->merge($titleCloseMatches)
+        ->merge($textExactMatches)
+        ->merge($textCloseMatches)
+        ->values();
+});
+
+
+
