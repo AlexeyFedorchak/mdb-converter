@@ -285,7 +285,7 @@ use App\Models\SearchIndexData;
 /**
  * Update search data
  */
-Route::get('/search/update', function () {
+Route::post('/search/update', function () {
     $request = request()->all();
 
     if (empty($request['link']))
