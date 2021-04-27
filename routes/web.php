@@ -143,6 +143,7 @@ Route::get('/clear', function () {
 
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redis;
 
 /**
  * get data from database based on provided in request query
@@ -238,7 +239,6 @@ Route::get('/country', function () {
 
 use Mpdf\Mpdf;
 use Illuminate\Support\Str;
-use Illuminate\Support\Facades\Redis;
 
 /**
  * create pdf and keep it in cache 1 minute..
