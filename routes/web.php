@@ -141,6 +141,9 @@ Route::get('/clear', function () {
     return redirect()->to('/tables');
 });
 
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
+
 /**
  * get data from database based on provided in request query
  * request: ['query_string' => String]
@@ -151,9 +154,19 @@ Route::get('/data', function () {
     if (empty(request()->query_string))
         return response('`query_string` is required!', 422);
 
-    return \Illuminate\Support\Facades\DB::select(
-        \Illuminate\Support\Facades\DB::raw(urldecode(request()->query_string))
+    $hash = Hash::make(request()->query_string);
+    $cachedResult = Redis::get('data-query-' . $hash);
+
+    if ($cachedResult)
+        return json_decode($cachedResult);
+
+    $result = DB::select(
+        DB::raw(urldecode(request()->query_string))
     );
+
+    Redis::set('data-query-' . $hash, json_encode($result));
+
+    return $result;
 });
 
 /**
@@ -183,7 +196,6 @@ Route::post('/send-email', function () {
  * Used packages
  */
 use GuzzleHttp\Client;
-use Illuminate\Support\Facades\DB;
 
 /**
  * get country data based on current location of user
