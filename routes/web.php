@@ -319,24 +319,41 @@ Route::post('/search/update', function () {
  */
 Route::get('/search', function () {
     $search = request()->search;
+    $lang = request()->lang;
 
     if (empty($search))
         return response('Please provide correct search phrase!', 422);
 
     $titleExactMatches = SearchIndexData::where('title', 'LIKE', $search)
+        ->where(function ($q) use ($lang) {
+            if (!empty($lang))
+                $q->where('url', 'LIKE', '%' . $lang . '%');
+        })
         ->get();
 
     $titleCloseMatches = SearchIndexData::where('title', 'LIKE', '%' . $search)
         ->orWhere('title', 'LIKE', $search . '%')
         ->orWhere('title', 'LIKE', '%' . $search . '%')
+        ->where(function ($q) use ($lang) {
+            if (!empty($lang))
+                $q->where('url', 'LIKE', '%' . $lang . '%');
+        })
         ->get();
 
     $textExactMatches = SearchIndexData::where('text', 'LIKE', $search)
+        ->where(function ($q) use ($lang) {
+            if (!empty($lang))
+                $q->where('url', 'LIKE', '%' . $lang . '%');
+        })
         ->get();
 
     $textCloseMatches = SearchIndexData::where('text', 'LIKE', '%' . $search)
         ->orWhere('text', 'LIKE', $search . '%')
         ->orWhere('text', 'LIKE', '%' . $search . '%')
+        ->where(function ($q) use ($lang) {
+            if (!empty($lang))
+                $q->where('url', 'LIKE', '%' . $lang . '%');
+        })
         ->get();
 
     return $titleExactMatches
