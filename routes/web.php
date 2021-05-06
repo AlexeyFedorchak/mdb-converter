@@ -331,9 +331,12 @@ Route::get('/search', function () {
         })
         ->get();
 
-    $titleCloseMatches = SearchIndexData::where('title', 'LIKE', '%' . $search)
-        ->orWhere('title', 'LIKE', $search . '%')
-        ->orWhere('title', 'LIKE', '%' . $search . '%')
+    $titleCloseMatches = SearchIndexData::where(function ($query) use ($search) {
+        $query->where('title', 'LIKE', '%' . $search)
+            ->orWhere('title', 'LIKE', $search . '%')
+            ->orWhere('title', 'LIKE', '%' . $search . '%');
+    })
+
         ->where(function ($q) use ($lang) {
             if (!empty($lang))
                 $q->where('link', 'LIKE', '%' . $lang . '%');
@@ -347,9 +350,11 @@ Route::get('/search', function () {
         })
         ->get();
 
-    $textCloseMatches = SearchIndexData::where('text', 'LIKE', '%' . $search)
-        ->orWhere('text', 'LIKE', $search . '%')
-        ->orWhere('text', 'LIKE', '%' . $search . '%')
+    $textCloseMatches = SearchIndexData::where(function ($query) use ($search) {
+        $query->where('text', 'LIKE', '%' . $search)
+            ->orWhere('text', 'LIKE', $search . '%')
+            ->orWhere('text', 'LIKE', '%' . $search . '%');
+    })
         ->where(function ($q) use ($lang) {
             if (!empty($lang))
                 $q->where('link', 'LIKE', '%' . $lang . '%');
