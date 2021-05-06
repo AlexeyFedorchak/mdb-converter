@@ -327,7 +327,7 @@ Route::get('/search', function () {
     $titleExactMatches = SearchIndexData::where('title', 'LIKE', $search)
         ->where(function ($q) use ($lang) {
             if (!empty($lang))
-                $q->where('url', 'LIKE', '%' . $lang . '%');
+                $q->where('link', 'LIKE', '%' . $lang . '%');
         })
         ->get();
 
@@ -336,14 +336,14 @@ Route::get('/search', function () {
         ->orWhere('title', 'LIKE', '%' . $search . '%')
         ->where(function ($q) use ($lang) {
             if (!empty($lang))
-                $q->where('url', 'LIKE', '%' . $lang . '%');
+                $q->where('link', 'LIKE', '%' . $lang . '%');
         })
         ->get();
 
     $textExactMatches = SearchIndexData::where('text', 'LIKE', $search)
         ->where(function ($q) use ($lang) {
             if (!empty($lang))
-                $q->where('url', 'LIKE', '%' . $lang . '%');
+                $q->where('link', 'LIKE', '%' . $lang . '%');
         })
         ->get();
 
@@ -352,7 +352,7 @@ Route::get('/search', function () {
         ->orWhere('text', 'LIKE', '%' . $search . '%')
         ->where(function ($q) use ($lang) {
             if (!empty($lang))
-                $q->where('url', 'LIKE', '%' . $lang . '%');
+                $q->where('link', 'LIKE', '%' . $lang . '%');
         })
         ->get();
 
