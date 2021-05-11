@@ -368,5 +368,76 @@ Route::get('/search', function () {
         ->values();
 });
 
+/**
+ * Upload CSV metadata page
+ */
+Route::get('/upload/meta/csv', function () {
+    if (!auth()->check())
+        return redirect()->to('/login');
+
+    return view('upload-csv');
+});
+
+/**
+ * Upload CSV metadata :POST
+ */
+use App\Models\MetaTable;
+
+Route::post('/upload/meta/csv', function () {
+    if (!auth()->check())
+        return redirect()->to('/login');
+
+    if (!request()->file)
+        return view('upload-csv')->with([
+            'error' => 'The csv file is not provided!'
+        ]);
+
+    $data = request()->file->getContent();
+
+    if (empty($data))
+        return view('upload-csv')->with([
+            'error' => 'The csv file is empty!'
+        ]);
+
+    if (!request()->table)
+        return view('upload-csv')->with([
+            'error' => 'The table name is required!'
+        ]);
+
+    MetaTable::where('name', request()->table)
+        ->delete();
+
+    $bit = 0;
+    foreach (explode("\r\n", $data) as $row) {
+        if ($bit == 0) {
+            $bit++;
+            continue;
+        }
+
+        MetaTable::create([
+            'name' => request()->table,
+            'row' => json_encode(explode("\t", $row)),
+        ]);
+    }
+});
+
+/**
+ * get meta data based on table name | parsed in strange way since PHP to be honest doesn't support UTF8
+ */
+Route::get('/meta', function () {
+    if (!request()->table)
+        return response('Please provide the table name!', 422);
+
+    $rows = MetaTable::where('name', request()->table)
+        ->get('row')
+        ->pluck('row')
+        ->toArray();
+
+    $rows = array_map(function ($row) {
+        return implode('|', json_decode($row));
+    }, $rows);
+
+    return implode('#', $rows);
+});
 
 
