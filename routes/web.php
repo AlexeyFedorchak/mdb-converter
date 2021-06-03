@@ -440,4 +440,11 @@ Route::get('/meta', function () {
     return implode('#', $rows);
 });
 
+/**
+ * clear search index data
+ */
+Route::get('/clear-search-data', function () {
+    SearchIndexData::truncate();
+});
+
 
